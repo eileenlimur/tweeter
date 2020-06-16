@@ -1,0 +1,26 @@
+form button output{
+  background-color: #4056A1;
+  color: #FFFFFF;
+  border: 0;
+  border-radius: 2px;
+  font-weight: normal;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form * {
+  padding: 10px;
+  font-weight: bold;
+}
+
+textarea {
+  resize: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid;
+  border-color: gray;
+}
