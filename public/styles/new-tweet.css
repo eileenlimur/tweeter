@@ -1,3 +1,8 @@
+.new-tweet {
+  margin-top: 10px;
+  max-width: 100%;
+}
+
 form button {
   background-color: #4056A1;
   color: #c481ad;
@@ -12,6 +17,7 @@ form label {
   -webkit-text-stroke: 1px #4056A1;
   color: #c481ad;
   font-family: 'Bungee', sans-serif;
+  font-size: 40px;
 }
 
 form output {
@@ -25,19 +31,22 @@ form output {
 form {
   display: flex;
   flex-direction: column;
+  font-weight: bold;
 }
 
 form * {
   padding: 10px;
-  font-weight: bold;
 }
 
 textarea {
+  margin-bottom: 15px;
   resize: none;
   background-color: transparent;
   border: none;
-  border-bottom: 4px solid;
+  margin: 0px 10px 0px 10px;
+  border-bottom: 3px solid;
   border-color: gray;
+  font-weight: bold;
 }
 
 .forminteractions {
