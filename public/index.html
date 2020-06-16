@@ -19,13 +19,15 @@
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
+    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+    <script type="text/javascript" src="../server/lib/in-memory-db.js"></script>
 
   </head>
 
   <body>
     <!-- Top nav bar (fixed) -->
     <nav>
-      <span style="font-family: 'Bungee', sans-serif; font-size: 40px;">tweeter</span>
+      <span style="font-family: 'Bungee', sans-serif; font-size: 40px; -webkit-text-stroke: 2px #c481ad;">tweeter</span>
       <span style="font-size: 20px;"><strong>Write</strong> a new tweet</span>
     </nav>
     <header>
@@ -40,16 +42,25 @@
 
     <!-- Page-specific (main) content here -->
     <main class="container">
-      <section class="new=tweet">
+      <section class="new-tweet">
         <form method="POST" action="/tweets">
           <label for="tweet-text">Compose Tweet:</label>
-          <textarea name="text" id="tweet=text" placeholder="What are you humming about?" rows="1"
+          <textarea name="text" id="tweet-text" placeholder="What are you humming about?" rows="1"
           cols="60"></textarea>
-          <div>
+          <div class="forminteractions">
             <button type="submit">Tweet</button>
             <output name="counter" class="counter" for="tweet-text">140</output>
           </div>
         </form>
+      </section>
+      <section class="tweets">
+        <article>
+          <header>
+            <script>console.log(db)</script>
+          </header>
+          <footer>
+          </footer>
+        </article>
       </section>
     </main>
   </body>

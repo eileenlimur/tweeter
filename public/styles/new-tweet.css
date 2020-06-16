@@ -1,10 +1,25 @@
-form button output{
+form button {
   background-color: #4056A1;
-  color: #FFFFFF;
+  color: #c481ad;
   border: 0;
   border-radius: 2px;
+  -webkit-text-stroke: 1px #FFFFFF;
   font-weight: normal;
-  
+  font-family: 'Bungee', sans-serif;
+}
+
+form label {
+  -webkit-text-stroke: 1px #4056A1;
+  color: #c481ad;
+  font-family: 'Bungee', sans-serif;
+}
+
+form output {
+  font-family: 'Bungee', sans-serif;
+}
+
+#out-of-words {
+  color: red;
 }
 
 form {
@@ -21,6 +36,11 @@ textarea {
   resize: none;
   background-color: transparent;
   border: none;
-  border-bottom: 2px solid;
+  border-bottom: 4px solid;
   border-color: gray;
+}
+
+.forminteractions {
+  display: flex;
+  justify-content: space-between;
 }
