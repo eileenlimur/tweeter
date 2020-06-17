@@ -1,3 +1,8 @@
+/* .tweet {
+  border: 3px solid gray;
+  margin: 10px;
+} */
+
 .tweets {
   border: 3px solid gray;
   padding: 10px;
@@ -28,7 +33,7 @@
 }
 
 .tweets .user-thumbnail img {
-  width: 50px;
+  width: 30px;
 }
 
 .tweets #handle {
