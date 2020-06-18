@@ -1,10 +1,3 @@
-/*
- * Client-side JS logic goes here
- * jQuery is already loaded
- * Reminder: Use (and do all your DOM work in) jQuery's document ready function
- */
-
-
 $(document).ready(() => {
 
   const createTweetElement = function(tweet) {
@@ -25,9 +18,9 @@ $(document).ready(() => {
       <footer>
         <span>${escape(timeSince(tweet['created_at']))}</span>
         <div>
-          <input type="image" src="/images/profile-hex.png">
-          <input type="image" src="/images/profile-hex.png">
-          <input type="image" src="/images/profile-hex.png">
+          <i class="fa fa-flag" aria-hidden="true"></i>
+          <i class="fa fa-retweet" aria-hidden="true"></i>
+          <i class="fa fa-heart" aria-hidden="true"></i>
         </div>
       </footer>
     </article>`);
@@ -60,13 +53,25 @@ $(document).ready(() => {
     event.preventDefault(); 
     const $inputs = $('form :input')
     const length = $inputs.val().length;
-    if (length === 0) {
-      alert("Your tweet is blank!");
+    if (length === 0 || $.trim($inputs.val()).length === 0) {
+      $('.errors')
+        .attr('id', '')
+        .attr('id', 'error')
+        .html("<p><i class='fa fa-exclamation' aria-hidden='true'></i> ZEN BIRDY ERROR: Your tweet is blank!</p>");
+      $('.errors').hide().slideDown('slow')
     } else if (length > 140) {
-      alert("Your tweet is too long!")
+      $('.errors')
+        .attr('id', '')
+        .attr('id', 'error')
+        .html("<p><i class='fa fa-exclamation' aria-hidden='true'></i> WORDY BIRDY ERROR: Your tweet is too long!</p>");
+      $('.errors').hide().slideDown('slow');
     } else {
+      $('.errors').slideUp('slow')
       $.post('/tweets', $(this).serialize())
         .then(function () {
+          $('.counter').html('140');
+          $('.errors').attr('id', '');
+          $('.errors').html('');
           loadTweets();
           $inputs.val('');
       });

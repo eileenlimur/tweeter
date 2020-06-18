@@ -18,6 +18,7 @@ form label {
   color: #c481ad;
   font-family: 'Bungee', sans-serif;
   font-size: 40px;
+  margin: 5px;
 }
 
 form output {
@@ -52,4 +53,20 @@ textarea {
 .forminteractions {
   display: flex;
   justify-content: space-between;
+}
+
+.errors {
+  position: absolute;
+}
+
+.errors#error {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  height: 2.5em;
+  border-radius: 10px;
+  background-color:rgba(255, 0, 0, 0.9);
+  color: black;
+  font-size: 15px;
 }

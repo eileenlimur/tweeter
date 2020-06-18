@@ -5,11 +5,15 @@
 
 .tweet:hover {
   box-shadow: 8px 8px 0px 0px rgba(196,201,225,1);
+
+}
+
+.tweet:hover p {
   font-weight: bold;
 }
 
 .tweets {
-  margin: 20px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
   max-width: 100%;
 }
 
