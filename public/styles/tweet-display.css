@@ -1,29 +1,41 @@
-/* .tweet {
+.tweet {
   border: 3px solid gray;
   margin: 10px;
-} */
+}
+
+.tweet:hover {
+  box-shadow: 8px 8px 0px 0px rgba(196,201,225,1);
+  font-weight: bold;
+}
 
 .tweets {
-  border: 3px solid gray;
-  padding: 10px;
   margin: 20px 0px 20px 0px;
   max-width: 100%;
 }
 
-.tweets:hover {
-  box-shadow: 10px 10px 0px 0px rgba(196,201,225,1);
-  font-weight: bold;
-}
-
 .tweets p {
   padding: 0px 10px 20px 10px;
+  margin: 0px 10px 0px 10px;
   border-bottom: 3px solid gray;
 }
 
-.tweets article header {
+.tweets header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.tweets footer {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.tweets footer input {
+  width: 20px;
 }
 
 .tweets .user-thumbnail {
@@ -33,26 +45,16 @@
 }
 
 .tweets .user-thumbnail img {
-  width: 30px;
+  width: 40px;
+  margin: 10px;
 }
 
-.tweets #handle {
+.tweet #handle {
   color: rgba(64, 86, 161, 0.5);
   visibility: hidden;
 }
 
-.tweets:hover #handle {
+.tweet:hover #handle {
   visibility: visible;
-}
-
-.tweets footer {
-  font-weight: bold;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 12px;
-}
-
-.tweets footer input {
-  width: 20px;
+  padding: 10px;
 }
