@@ -1,0 +1,29 @@
+
+@media only screen and (min-width: 768px) {
+
+  nav {
+    z-index: 9999;
+  }
+
+  /* form {
+    max-width: 100%;
+  } */
+
+  body {
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 40px;
+  }
+
+  main {
+    width: 65vw;
+    position: relative;
+    left: 35vw;
+  }
+
+  #profile {
+    position: fixed;
+    width: 35vw;
+    height: 35vw;
+  }
+}
