@@ -28,9 +28,8 @@ $(document).ready(() => {
   }
 
   const timeSince = function(timeStamp) {
-    const dateThen = moment(new Date(timeStamp)).format('YYYYMMDD');
-    const elapsedTime = moment(dateThen, 'YYYYMMDD').fromNow();
-    return elapsedTime;
+    const dateThen = moment(new Date(timeStamp));
+    return moment(dateThen, 'YYYYMMDD, , h:mm:ss a').fromNow()
   }
 
   const renderTweets = function(tweetsArray) {

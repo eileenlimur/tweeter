@@ -1,0 +1,30 @@
+
+@media only screen and (min-width: 768px) {
+
+  nav {
+    z-index: 9999;
+  }
+
+  body {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  main {
+    max-width: 100%;
+    margin-left: 30vw;
+  }
+
+  .tweets {
+    max-width: 80%
+  }
+
+  #profile {
+    position: fixed;
+    left: 30px;
+    top: 150px;
+    width: 35vw;
+    height: 35vw;
+  }
+  
+}
