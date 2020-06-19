@@ -2,7 +2,7 @@
 
 Tweeter is a simple, single-page Twitter clone.
 
-This was a project created as a part of my Lighthouse Labs web development bootcamp curriculum. The server was built by Lighthouse Labs. I built upon the pre-existing app framework to practice my HTML, CSS, JS, jQuery and AJAX front-end skills. The app does not allow user registration; it generates random users (but will add your desired tweet content to the tweets display!). Some responsive design was implemented.
+This was a project created as a part of the Lighthouse Labs web development bootcamp curriculum. The server was built by Lighthouse Labs. I built upon the pre-existing app framework to practice my HTML, CSS, JS, jQuery and AJAX front-end skills. The app does not allow user registration; it generates random users (but will add your desired tweet content to the tweets display!). Some responsive design was implemented.
 
 ## Previews
 
