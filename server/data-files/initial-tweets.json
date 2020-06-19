@@ -1,23 +1,33 @@
 [
   {
     "user": {
-      "name": "Newton",
+      "name": "Sir. Wolf",
       "avatars": "https://i.imgur.com/73hZDYK.png"
       ,
-      "handle": "@SirIsaac"
+      "handle": "@wolfikins"
     },
     "content": {
-      "text": "If I have seen further it is by standing on the shoulders of giants"
+      "text": "Bugs are easy to hate but if you try to love them you can love them too!"
     },
     "created_at": 1461116232227
   },
   {
     "user": {
-      "name": "Descartes",
+      "name": "Luna",
       "avatars": "https://i.imgur.com/nlhLi3I.png",
-      "handle": "@rd" },
+      "handle": "@moonie" },
     "content": {
-      "text": "Je pense , donc je suis"
+      "text": "Ummm.... Is this thing on?"
+    },
+    "created_at": 1461113959088
+  },
+  {
+    "user": {
+      "name": "Luna",
+      "avatars": "https://i.imgur.com/nlhLi3I.png",
+      "handle": "@moonie" },
+    "content": {
+      "text": "2020 has been the weirdest year!"
     },
     "created_at": 1461113959088
   }

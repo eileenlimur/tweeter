@@ -1,4 +1,3 @@
-
 @media only screen and (min-width: 768px) {
 
   nav {
@@ -27,4 +26,11 @@
     height: 35vw;
   }
   
+  .down-arrow {
+    visibility: visible;
+  }
+
+  header h2 {
+    font-size: 2em;
+  }
 }

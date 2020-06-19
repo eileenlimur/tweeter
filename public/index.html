@@ -1,49 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Meta Information -->
     <title>Tweeter - Home Page</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-    <!-- External CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
 
-    <!-- App CSS -->
+    <link rel="stylesheet" href="/styles/responsive-small.css" type="text/css" />
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
     <link rel="stylesheet" href="/styles/tweet-display.css" type="text/css" />
-    <link rel="stylesheet" href="/styles/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/responsive-large.css" type="text/css" />
 
-    <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"></script>
 
-    <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
     <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
 
   </head>
 
   <body>
-    <!-- Top nav bar (fixed) -->
     <nav>
-      <span style="font-family: 'Bungee', sans-serif; font-size: 50px; -webkit-text-stroke: 2px #c481ad;">tweeter</span>
+      <span style="font-family: 'Bungee', sans-serif; font-size: 3em; -webkit-text-stroke: 2px #c481ad;">tweeter</span>
       <span style="font-size: 20px;" class="down-arrow"></div><p><strong>Write</strong> a new tweet</p><img src="images/vector.png" width=20px;></span>
     </nav>
     <header id="profile">
       <img src="/images/profile-hex.png">
       <h2>Eileen Li</h2>
     </header>
-    <!-- Page-specific (main) content here -->
     <main class="container">
       <section class="new-tweet">
         <form method="POST" action="/tweets">
           <label for="tweet-text">Compose Tweet:</label>
           <div class="errors">
+            <!-- populated by Ajax -->
           </div>
           <textarea name="text" id="tweet-text" placeholder="What are you humming about?" rows="1"
           cols="60"></textarea>
