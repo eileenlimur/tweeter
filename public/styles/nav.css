@@ -11,3 +11,15 @@ nav {
   position: fixed;
   top: 0;
 }
+
+.down-arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.down-arrow p {
+  margin-top: 0px;
+  margin-bottom: 2px;
+}

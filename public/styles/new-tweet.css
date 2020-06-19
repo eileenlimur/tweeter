@@ -3,32 +3,6 @@
   max-width: 100%;
 }
 
-form button {
-  background-color: #4056A1;
-  color: #c481ad;
-  border: 0;
-  border-radius: 2px;
-  -webkit-text-stroke: 1px #FFFFFF;
-  font-weight: normal;
-  font-family: 'Bungee', sans-serif;
-}
-
-form label {
-  -webkit-text-stroke: 1px #4056A1;
-  color: #c481ad;
-  font-family: 'Bungee', sans-serif;
-  font-size: 40px;
-  margin: 5px;
-}
-
-form output {
-  font-family: 'Bungee', sans-serif;
-}
-
-#out-of-words {
-  color: red;
-}
-
 form {
   display: flex;
   flex-direction: column;
@@ -57,6 +31,32 @@ textarea {
 .forminteractions {
   display: flex;
   justify-content: space-between;
+}
+
+form button {
+  background-color: #4056A1;
+  color: #c481ad;
+  border: 0;
+  border-radius: 2px;
+  -webkit-text-stroke: 1px #FFFFFF;
+  font-weight: normal;
+  font-family: 'Bungee', sans-serif;
+}
+
+form label {
+  -webkit-text-stroke: 1px #4056A1;
+  color: #c481ad;
+  font-family: 'Bungee', sans-serif;
+  font-size: 40px;
+  margin: 5px;
+}
+
+form output {
+  font-family: 'Bungee', sans-serif;
+}
+
+#out-of-words {
+  color: red;
 }
 
 .errors {

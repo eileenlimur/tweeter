@@ -1,17 +1,25 @@
 #profile {
-  height: 400px;
-  width: 100%;  
+  height: 50vw;
+  width: 50vw;  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin: 10vw; */
   background-color: #c481ad;
   background-image: url("https://www.transparenttextures.com/patterns/white-brick-wall.png");
   /* background pattern taken from https://www.transparenttextures.com/ created by Listvetra */
 }
 
+#profile img {
+  max-width: 20em;
+}
+
 header h2 {
   margin: 0px;
-  font-weight: bold;
+  padding-top: 10px;
+  font-weight: bolder;
+  font-family: 'Bungee', sans-serif;
+  -webkit-text-stroke: 0.5px white;
+  color: hotpink;
+  font-size: 2em;
 }
