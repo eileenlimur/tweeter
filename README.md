@@ -6,11 +6,8 @@ This was a project created as a part of my Lighthouse Labs web development bootc
 
 ## Previews
 
-This is the browser view
 <img src="https://github.com/eileenlimur/tweeter/blob/master/public/images/browser-view.png" alt="browser view" width="600px">
-This is the tablet/phone view with an error message
 <img src="https://github.com/eileenlimur/tweeter/blob/master/public/images/skinny-browser-error-message.png" alt="skinny browser view with error message" width="600px">
-This is what happens when you :hover over a specific post
 <img src="https://github.com/eileenlimur/tweeter/blob/master/public/images/hover-post.png" alt="hover view for a tweet" width="600px">
 
 ## Getting Started
