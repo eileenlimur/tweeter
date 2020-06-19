@@ -6,9 +6,9 @@ This was a project created as a part of my Lighthouse Labs web development bootc
 
 ## Previews
 
-!["Browser view"](https://github.com/eileenlimur/tweeter/blob/master/public/images/browser-view.png)
-!["Tablet/mobile view with error message"](https://github.com/eileenlimur/tweeter/blob/master/public/images/skinny-browser-error-message.png)
-!["Hover functionality was implemented for the tweets"](https://github.com/eileenlimur/tweeter/blob/master/public/images/hover-post.png)
+!["Browser view"](https://github.com/eileenlimur/tweeter/blob/master/public/images/browser-view.png = 600px)
+!["Tablet/mobile view with error message"](https://github.com/eileenlimur/tweeter/blob/master/public/images/skinny-browser-error-message.png = 600px)
+!["Hover functionality was implemented for the tweets"](https://github.com/eileenlimur/tweeter/blob/master/public/images/hover-post.png = 600px)
 
 ## Getting Started
 
