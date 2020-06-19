@@ -4,6 +4,12 @@ Tweeter is a simple, single-page Twitter clone.
 
 This was a project created as a part of my Lighthouse Labs web development bootcamp curriculum. The server was built by Lighthouse Labs. I built upon the pre-existing app framework to practice my HTML, CSS, JS, jQuery and AJAX front-end skills. The app does not allow user registration; it generates random users (but will add your desired tweet content to the tweets display!). Some responsive design was implemented.
 
+## Previews
+
+!["Browser view"](https://github.com/eileenlimur/tweeter/blob/master/public/images/browser-view.png)
+!["Tablet/mobile view with error message"](https://github.com/eileenlimur/tweeter/blob/master/public/images/skinny-browser-error-message.png)
+!["Hover functionality was implemented for the tweets"](https://github.com/eileenlimur/tweeter/blob/master/public/images/hover-post.png)
+
 ## Getting Started
 
 1. Fork this repository, then clone your fork of this repository.
