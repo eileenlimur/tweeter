@@ -5,19 +5,18 @@
     z-index: 9999;
   }
 
-  /* form {
-    max-width: 100%;
-  } */
-
   body {
     flex-direction: row;
     align-items: flex-start;
   }
 
   main {
-    width: 65vw;
-    position: relative;
-    left: 35vw;
+    max-width: 70%;
+    margin-left: 35vw;
+  }
+
+  .tweets {
+    max-width: 80%
   }
 
   #profile {

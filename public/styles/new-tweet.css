@@ -35,6 +35,10 @@ form {
   font-weight: bold;
 }
 
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
 form * {
   padding: 10px;
 }

@@ -14,7 +14,7 @@ $(document).ready(() => {
         </section>
         <span id="handle">${escape(tweet['user']['handle'])}</span>
       </header>
-      <p>${escape(tweet['content']['text'])}</p>
+      <p style="word-break: break; word-wrap: break-word;">${escape(tweet['content']['text'])}</p>
       <footer>
         <span>${escape(timeSince(tweet['created_at']))}</span>
         <div>
