@@ -5,10 +5,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* margin: 10vw; */
   background-color: #c481ad;
   background-image: url("https://www.transparenttextures.com/patterns/white-brick-wall.png");
   /* background pattern taken from https://www.transparenttextures.com/ created by Listvetra */
 }
+
 header h2 {
   margin: 0px;
   font-weight: bold;
